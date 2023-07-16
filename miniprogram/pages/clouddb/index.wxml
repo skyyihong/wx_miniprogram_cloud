@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view>数据库操作</view>
+<button type="primary" size="mini" bindtap="onHandelGetdoc">查询doc方法</button>
+<button type="primary" size="mini" bindtap="onHandelwhere">查询where方法</button>
+<button type="primary" size="mini" bindtap="onHandelexp">查询where的正值方法</button>
+<button type="primary" size="mini" bindtap="onHandelInsert">新增</button>
+<button type="primary" size="mini" bindtap="onHandelModify">修改</button>
+<button type="primary" size="mini" bindtap="onHandeldel">删除</button>

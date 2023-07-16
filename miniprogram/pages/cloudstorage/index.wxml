@@ -1,0 +1,19 @@
+<!--pages/cloudstorage/index.wxml-->
+<text>pages/cloudstorage/index.wxml</text>
+<button type="primary" bindtap="upFileTap">上传文件到云存储</button>
+<button type="primary" catch:tap="downFileTap">下载云存储文件</button>
+<button type="primary" catch:tap="delFileTap">删除云存储文件</button>
+<button type="primary" bind:tap="getTmpFileName">获取云存储文件临时文件路径</button>
+<view>
+  <view>上传的图片：</view>
+  <image src="{{upFile}}" mode="widthFix" style="width: 300rpx;" />
+</view>
+
+<view>
+  <view>下载的图片：</view>
+  <image src="{{downFile}}" mode="widthFix" style="width: 300rpx;" />
+</view>
+<view>
+  <view>临时文件访问链接：{{tmpLinkName}}</view>
+
+</view>

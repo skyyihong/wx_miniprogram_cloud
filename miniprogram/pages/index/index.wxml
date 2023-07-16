@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<button bindtap="tocloudDb" type="primary">云数据库</button>
+<button bindtap="tocloudStorage" type="primary">云存储</button>
+<button bindtap="tocloudFunc" type="primary">云函数和云调用</button>

@@ -1,0 +1,10 @@
+<!--pages/cloudfunc/index.wxml-->
+
+<view>1.添加新的云函数并上传服务器，同时启用本地和远程调试功能</view>
+<view>2.添加云函数和运行测试</view>
+<button bind:tap="getDbInfo" size="mini" type="primary">云函数获取数据库信息</button>
+<view>3.用aioxs用访问第三方服务器获取数据</view>
+<button size="mini" type="primary" bind:tap="getwebInfo">axios获取网络资源</button>
+<view>4.云开发获取小程序二维码</view>
+<button size="mini" type="primary" bind:tap="getQRCode">二维码</button>
+<image src="{{QRimage}}" mode="widthFix" />
