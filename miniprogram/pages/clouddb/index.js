@@ -12,6 +12,11 @@ Page({
   data: {
 
   },
+  getDbInfo() {
+    clothesCol.limit(19).get().then(res => {
+      console.log(res);
+    })
+  },
   async onHandelGetdoc() {
     const {
       total
